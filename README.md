@@ -1,6 +1,6 @@
 ######################################################
 #                                                    #
-#    Python Gmail SSL Script                         #
+#    Python Gmail SSL Script Version 2               #
 #    Sha Cryptographic hashes message.               #
 #    Author: L0NDONER                                #
 #                                                    #
