@@ -1,24 +1,22 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+import email
+import re
 import smtplib
 import netrc
 from secret import password, username #  Gmail password and username
 from address import fromaddr, recipient #  added addresses here because I can
+from RawMail import msg, html #  added addresses here because I can
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 
-# Writing the message (You can write email in html format or plain text.)
+#  Record the MIME types of both parts - text/plain and text/html.
 
-msg = """
-From: 
-To: 
-Subject:
+part1 = MIMEText(msg, 'plain')
+part2 = MIMEText(html, 'html')
 
-Hello World
-"""
-
-
-
-#  Sending the mail
+#  Sending the mail over Gmail ssl server
 
 server_ssl = smtplib.SMTP_SSL("smtp.gmail.com", 465)
 server_ssl.ehlo()  #  optional, called by login()
