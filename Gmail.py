@@ -25,7 +25,7 @@ server_ssl.ehlo()  #  optional, called by login()
 server_ssl.login(username, password)
 server_ssl.sendmail(fromaddr, recipient, msg)
 server_ssl.quit()
-print('Sent email to %s' % recipient)
+print "Your Email to %s was sent successfully" % (recipient,) #  .format seemed a better option here rather than % string
 
 
 
