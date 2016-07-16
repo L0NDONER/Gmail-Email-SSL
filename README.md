@@ -1,10 +1,18 @@
-######################################################
+﻿######################################################
 #                                                    #
 #    Python Gmail SSL Script Version 2               #
-#    Sha Cryptographic hashes message.               #
 #    Author: L0NDONER                                #
 #                                                    #
 ######################################################
+
+
+=========================================================
+
+
+This is a Python script for Gmail.
+
+
+=========================================================
 
 Gmail.py
 
@@ -54,21 +62,7 @@ your email address (username@gmail.com or username@your_domain.com)
 Password:
 your Gmail password
 
-=========================================================
-
-This is a Python script for Gmail.
-Send securely over SSL Hashlib, Sha Cryptographic hashes the message digests.
-the script will print the Crypto key and print the Email has been successfully sent.
-
-=========================================================
-
-DEPENDENCIES:
-
-import smtplib
-import hashlib
-
-
-========================================================
++++++++++++++++++++++++++++++++++++
 
 You are free to use and modify to your own needs if you wish.
 
