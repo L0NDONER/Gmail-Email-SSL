@@ -1,5 +1,5 @@
 ﻿######################################################
-#                                                    #
+#    http://pep8online.com/ Status Checked           #
 #    Python Gmail SSL Script Version 3               #
 #    Author: L0NDONER                                #
 #    Updated 17 August 2016                          #
